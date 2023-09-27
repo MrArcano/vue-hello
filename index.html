@@ -10,8 +10,12 @@
   <title>VUE Hello</title>
 </head>
 <body>
+  
 
-  <div id="app">{{ message }}</div>
+  <div id="app">
+    <h1>{{ message }}</h1>
+    <div v-html="img"></div>
+  </div>
   
   <script src="js/script.js"></script>
 </body>
